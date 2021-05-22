@@ -1,14 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Car from './components/Car';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Car car="Model S" price={'83980'} />;
 }
 
 const styles = StyleSheet.create({
