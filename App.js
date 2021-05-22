@@ -1,10 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Car from './components/Car';
+import CarList from './components/CarList/CarList';
 
 export default function App() {
-  return <Car car="Model S" price={'83980'} />;
+  return <CarList />;
 }
 
 const styles = StyleSheet.create({
